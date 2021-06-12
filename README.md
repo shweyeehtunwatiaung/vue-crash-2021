@@ -24,5 +24,20 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
+### Build Production
+npm i -g serve
+serve -s dist
 
-npm i json server
+### Run Json Backend server
+npm i json-server
+"backend": "json-server --watch db.json --port 5000"
+
+### Router
+npm i vue-router@next
+
+router folder => index.js
+view folder  => page
+
+main.js
+
+router-view => show the router page
